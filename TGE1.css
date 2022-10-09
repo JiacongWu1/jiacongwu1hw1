@@ -1,0 +1,41 @@
+.split{
+    height: 100%;
+    width: 60%;
+    position: fixed;
+}
+.left{
+    left: -100px;
+}
+.right{
+    right: 200px;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    text-align: center;
+    background-color:aliceblue;
+}
+.centered1 {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+    background-color:beige;
+    font-style: italic;
+}
+
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lavender;
+}
+
+.botton{
+    position: absolute;
+    left:15%;
+    right: 60%;
+    text-emphasis-color: aliceblue;
+    background-color:grey;
+}
+
+
