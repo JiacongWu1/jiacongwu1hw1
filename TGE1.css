@@ -1,41 +1,92 @@
 .split{
-    height: 100%;
-    width: 60%;
+    height: 90%;
+    width: 80%;
     position: fixed;
 }
 .left{
-    left: -100px;
+    left: -200px;
 }
 .right{
-    right: 200px;
+    right: 100px;
 }
 .centered {
-    position: absolute;
+    position:absolute;
     top: 20%;
-    left: 45%;
-    text-align: center;
-    background-color:aliceblue;
+    left: 50%;
+    right:5%;
+    text-align:center;
+    background-color:antiquewhite;
+    /*border-style: groove;*/
+    z-index: 2;
 }
 .centered1 {
     position: absolute;
-    top: 25%;
-    left: 35%;
+    top: 20%;
+    left: 40%;
     text-align: center;
-    background-color:beige;
+    /*background-color:beige;*/
     font-style: italic;
 }
 
-.back{
+.body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:lavender;
+    background-color:lightskyblue;
 }
 
 .botton{
     position: absolute;
-    left:15%;
-    right: 60%;
-    text-emphasis-color: aliceblue;
-    background-color:grey;
+    left:65%;
+    bottom: -20%;
+    background-color:beige;
 }
 
+.botton2{
+    position: absolute;
+    left:15%;
+    bottom: -20%;
+    background-color:beige;
+}
+.h1{
+    font-family:'Times New Roman', Times, serif;
+}
 
+.bg{
+    border-style: groove;
+    background-color: azure;
+    z-index: 0;
+    position:absolute;
+    top:5%;
+    height:90%;
+    width:90%;
+    left:5%;
+    position:fixed;
+}
+
+.text1{
+    position: absolute;
+    left:10%;
+    bottom: 15%;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text2{
+    position: absolute;
+    left:25%;
+    bottom: 15%;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text3{
+    position: absolute;
+    left:34%;
+    bottom: 15%;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text4{
+    position: absolute;
+    left:40%;
+    bottom: 15%;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
